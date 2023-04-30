@@ -119,4 +119,7 @@ public class MyHashTable<K, V> {
         return chainArray;
     }
 
+    public int getSize() {
+        return size;
+    }
 }
